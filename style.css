@@ -1,0 +1,92 @@
+
+body {
+background: rgb(169,255,255);
+background: linear-gradient(90deg, rgba(169,255,255,1) 0%, rgba(200,179,255,1) 50%, rgba(255,225,184,1) 100%);
+}
+
+.sticker {
+  padding-top: 20px;
+  background: #ffe1b8;
+  min-height: 100px;
+  min-width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid white;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.sticker .bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  background: #ffceb3;
+  width: 100%;
+}
+
+.sticker textarea {
+  padding: 3px 10px;
+  box-sizing: border-box;
+  min-height: 100px;
+  min-width: 100px;
+  background: transparent;
+  border: none;
+}
+
+.sticker .bar:hover {
+  cursor: move;
+  background: #ffb48a;
+}
+
+.sticker:hover {
+  z-index: 1;
+}
+.Titre {
+  width: -webkit-fill-available;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Sulphur Point', sans-serif;
+  color: white;
+  font-size: 50px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.44);
+background: rgb(169,255,255);
+background: linear-gradient(90deg, rgba(169,255,255,1) 0%, rgba(255,206,179,1) 50%, rgba(255,225,184,1) 100%);
+  border: outset;
+}
+
+.addNoteBtn {
+  font-family: 'Sulphur Point', sans-serif;
+  color: white;
+  font-size: 15px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.44);
+background:#a9e9ff;
+  border: outset;
+}
+
+.deleteButton,
+.saveButton {
+  border: none;
+  position: absolute;
+  top: 2px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  border-radius: 50%;
+  right: 5px;
+  background: #ff0000;
+}
+
+.saveButton {
+  background-color: black;
+  background-image: url('save-icon.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 5px;
+}
